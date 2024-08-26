@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Encriptador 🔐</title>
+</head>
+
+<body>
+
+    <main class="contenedor1">
+        <img class="logo__alura" src="./assets/Logo.png" alt="Logo__alura">
+        <div class="vertical">
+            <textarea class="Ingresa__script__sin__encriptar" placeholder="Ingresa el texto aquí" id="inputText"></textarea>
+
+            <div class="note">
+                <img class="icono-Exclamacion" src="./assets/icons8-atención.gif" alt="imagen">
+                <p>Sólo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="botones">
+                <button id="encriptarBtn" onclick="encriptar()">Encriptar</button>
+                <button id="desencriptarBtn" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </div>
+        <div class="rectangulo__blanco">
+            <img class="muñeco" src="./assets/Muñeco.png" alt="Muñeco" id="muñeco">
+            <p class="sin-mensaje">Ningún mensaje fue <br> encontrado</p>
+            <p class="instrucciones">Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            <textarea id="outputText" class="hidden" readonly></textarea>
+            <button onclick="copiar()" class="boton-copiar hidden">Copiar</button>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
+

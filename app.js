@@ -1,5 +1,4 @@
 function validarTexto(texto) {
-    // Verificar si el texto contiene solo letras minúsculas y espacios
     const regex = /^[a-z\s]*$/;
     return regex.test(texto);
 }
@@ -7,7 +6,7 @@ function validarTexto(texto) {
 function encriptar() {
     let texto = document.getElementById("inputText").value;
     
-    if (!validarTexto(texto)) {
+    if (!validarTexto(texto)) { 
         alert("Por favor, ingresa solo letras minúsculas sin acentos ni caracteres especiales.");
         return;
     }

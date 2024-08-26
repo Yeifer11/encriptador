@@ -179,9 +179,23 @@ input::placeholder {
 
     .rectangulo__blanco {
         width: auto;
-        height: auto;
+        height: 200px;
         padding: 20px;
         margin-top: 2rem;
+    }
+
+    .boton-copiar {
+        margin-top: 3rem;
+        padding: 1rem 2rem;
+        background-color: #0A3871;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 1rem;
+        width: 100%;
+        max-width: 200px;
+        font-family: 'Inter', sans-serif;
     }
 
     .muñeco {

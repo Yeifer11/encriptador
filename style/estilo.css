@@ -40,6 +40,7 @@ body {
     color: #0A3871;
     outline: none;
     max-width: 100%;
+    resize: none;
 }
 
 .vertical {
@@ -125,6 +126,7 @@ input::placeholder {
     overflow-wrap: break-word; 
     word-wrap: break-word; 
     word-break: break-word; 
+    
 }
 
 .boton-copiar {
